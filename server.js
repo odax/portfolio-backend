@@ -27,4 +27,4 @@ server.post('/main', function(req, res) {
 })
 
 const PORT = process.env.PORT || 5000;
-server.listen(5000, () => console.log(`\n== API Running on port ${PORT} ==\n`));
+server.listen(PORT, () => console.log(`\n== API Running on port ${PORT} ==\n`));
