@@ -15,7 +15,7 @@ server.get('/', (req, res) => {
 server.post('/main', function(req, res) {
     var email = {
         to: 'riddena01@gmail.com',
-        from: 'riddena01@gmail.com',
+        from: 'nr10@albion.edu',
         subject: 'New message from ' + req.body.name + ' --- ID:' + req.body.id,
         text: req.body.message + ' Email: ' + req.body.email,
     };
